@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 03/15/2022 04:09:32 PM
+// Create Date: 03/15/2022 04:20:54 PM
 // Design Name: 
-// Module Name: Location6
+// Module Name: Sword
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,8 +20,8 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Location3(input E, W, Q2, Q3, output D3);
+module Sword(input Q, SW, output V);
 
-    assign D3 = (Q2 & W) | (Q3 & ~E);
+    assign V = Q + SW;
 
 endmodule
