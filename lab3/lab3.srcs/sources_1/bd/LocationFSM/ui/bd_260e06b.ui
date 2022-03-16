@@ -1,0 +1,64 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.675",
+   "Default View_TopLeft":"-1064,-30",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_E -pg 1 -lvl 0 -x 0 -y -10 -defaultsOSRD
+preplace port port-id_N -pg 1 -lvl 0 -x 0 -y 10 -defaultsOSRD
+preplace port port-id_S -pg 1 -lvl 0 -x 0 -y 30 -defaultsOSRD
+preplace port port-id_W -pg 1 -lvl 0 -x 0 -y 50 -defaultsOSRD
+preplace port port-id_V -pg 1 -lvl 0 -x 0 -y 70 -defaultsOSRD
+preplace port port-id_q0 -pg 1 -lvl 3 -x 640 -y 170 -defaultsOSRD
+preplace port port-id_q1 -pg 1 -lvl 3 -x 640 -y -10 -defaultsOSRD
+preplace port port-id_q2 -pg 1 -lvl 3 -x 640 -y 10 -defaultsOSRD
+preplace port port-id_q3 -pg 1 -lvl 3 -x 640 -y 30 -defaultsOSRD
+preplace port port-id_SW -pg 1 -lvl 3 -x 640 -y 50 -defaultsOSRD
+preplace port port-id_q4 -pg 1 -lvl 3 -x 640 -y 70 -defaultsOSRD
+preplace port port-id_q5 -pg 1 -lvl 3 -x 640 -y 90 -defaultsOSRD
+preplace port port-id_D -pg 1 -lvl 3 -x 640 -y 110 -defaultsOSRD
+preplace port port-id_WIN -pg 1 -lvl 3 -x 640 -y 130 -defaultsOSRD
+preplace port port-id_q6 -pg 1 -lvl 3 -x 640 -y 150 -defaultsOSRD
+preplace port port-id_clock -pg 1 -lvl 0 -x 0 -y 90 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x 0 -y 110 -defaultsOSRD
+preplace inst Location0_0 -pg 1 -lvl 1 -x 260 -y 1160 -defaultsOSRD
+preplace inst Location1_0 -pg 1 -lvl 1 -x 260 -y 970 -defaultsOSRD
+preplace inst Location2_0 -pg 1 -lvl 1 -x 260 -y 750 -defaultsOSRD
+preplace inst Location3_0 -pg 1 -lvl 1 -x 260 -y 560 -defaultsOSRD
+preplace inst Location4_0 -pg 1 -lvl 1 -x 260 -y 420 -defaultsOSRD
+preplace inst Location5_0 -pg 1 -lvl 1 -x 260 -y 290 -defaultsOSRD
+preplace inst Location6_0 -pg 1 -lvl 1 -x 260 -y 150 -defaultsOSRD
+preplace inst xup_dff_reset_0 -pg 1 -lvl 2 -x 470 -y 960 -defaultsOSRD
+preplace inst xup_dff_reset_1 -pg 1 -lvl 2 -x 470 -y 790 -defaultsOSRD
+preplace inst xup_dff_reset_2 -pg 1 -lvl 2 -x 470 -y 620 -defaultsOSRD
+preplace inst xup_dff_reset_3 -pg 1 -lvl 2 -x 470 -y 450 -defaultsOSRD
+preplace inst xup_dff_reset_4 -pg 1 -lvl 2 -x 470 -y 300 -defaultsOSRD
+preplace inst xup_dff_reset_5 -pg 1 -lvl 2 -x 470 -y 160 -defaultsOSRD
+preplace inst xup_dff_set_0 -pg 1 -lvl 2 -x 470 -y 1130 -defaultsOSRD
+preplace netloc E_1 1 0 1 70 -10n
+preplace netloc N_1 1 0 1 30 10n
+preplace netloc S_1 1 0 1 60 30n
+preplace netloc W_1 1 0 1 20 50n
+preplace netloc V_1 1 0 1 50 70n
+preplace netloc xup_dff_set_0_q 1 0 3 90 -10 N -10 590
+preplace netloc xup_dff_reset_0_q 1 0 3 100 0 N 0 600
+preplace netloc xup_dff_reset_1_q 1 0 3 110 20 N 20 610
+preplace netloc xup_dff_reset_2_q 1 0 3 120 40 N 40 620
+preplace netloc xup_dff_reset_3_q 1 0 3 150 70 N 70 580
+preplace netloc xup_dff_reset_4_q 1 0 3 140 50 N 50 560
+preplace netloc xup_dff_reset_5_q 1 0 3 130 30 N 30 570
+preplace netloc clock_1 1 0 2 40J 10 370
+preplace netloc reset_1 1 0 2 80J 60 350
+preplace netloc Location0_0_D0 1 1 1 380 1110n
+preplace netloc Location1_0_D1 1 1 1 380 940n
+preplace netloc Location2_0_D2 1 1 1 340 750n
+preplace netloc Location3_0_D3 1 1 1 360 560n
+preplace netloc Location4_0_D4 1 1 1 380 420n
+preplace netloc Location5_0_D5 1 1 1 360 280n
+preplace netloc Location6_0_D6 1 1 1 340 140n
+levelinfo -pg 1 0 260 470 640
+pagesize -pg 1 -db -bbox -sgen -90 -30 720 1250
+"
+}
+

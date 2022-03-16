@@ -1,13 +1,337 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x0",
+      "boundary_crc": "0x873A3CF501644F53",
+      "device": "xc7a100tcsg324-1",
       "gen_directory": "../../../../lab3.gen/sources_1/bd/LocationFSM",
       "name": "LocationFSM",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2021.2"
+      "tool_version": "2021.2",
+      "validated": "true"
     },
-    "design_tree": {}
+    "design_tree": {
+      "Location0_0": "",
+      "Location1_0": "",
+      "Location2_0": "",
+      "Location3_0": "",
+      "Location4_0": "",
+      "Location5_0": "",
+      "Location6_0": "",
+      "xup_dff_reset_0": "",
+      "xup_dff_reset_1": "",
+      "xup_dff_reset_2": "",
+      "xup_dff_reset_3": "",
+      "xup_dff_reset_4": "",
+      "xup_dff_reset_5": "",
+      "xup_dff_set_0": ""
+    },
+    "ports": {
+      "E": {
+        "direction": "I"
+      },
+      "N": {
+        "direction": "I"
+      },
+      "S": {
+        "direction": "I"
+      },
+      "W": {
+        "direction": "I"
+      },
+      "V": {
+        "direction": "I"
+      },
+      "q0": {
+        "direction": "O"
+      },
+      "q1": {
+        "direction": "O"
+      },
+      "q2": {
+        "direction": "O"
+      },
+      "q3": {
+        "direction": "O"
+      },
+      "SW": {
+        "direction": "O"
+      },
+      "q4": {
+        "direction": "O"
+      },
+      "q5": {
+        "direction": "O"
+      },
+      "D": {
+        "direction": "O"
+      },
+      "WIN": {
+        "direction": "O"
+      },
+      "q6": {
+        "direction": "O"
+      },
+      "clock": {
+        "direction": "I"
+      },
+      "reset": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "Location0_0": {
+        "vlnv": "xilinx.com:user:Location0:1.0",
+        "xci_name": "LocationFSM_Location0_0_0",
+        "xci_path": "ip\\LocationFSM_Location0_0_0\\LocationFSM_Location0_0_0.xci",
+        "inst_hier_path": "Location0_0"
+      },
+      "Location1_0": {
+        "vlnv": "xilinx.com:user:Location1:1.0",
+        "xci_name": "LocationFSM_Location1_0_0",
+        "xci_path": "ip\\LocationFSM_Location1_0_0\\LocationFSM_Location1_0_0.xci",
+        "inst_hier_path": "Location1_0"
+      },
+      "Location2_0": {
+        "vlnv": "xilinx.com:user:Location2:1.0",
+        "xci_name": "LocationFSM_Location2_0_0",
+        "xci_path": "ip\\LocationFSM_Location2_0_0\\LocationFSM_Location2_0_0.xci",
+        "inst_hier_path": "Location2_0"
+      },
+      "Location3_0": {
+        "vlnv": "xilinx.com:user:Location3:1.0",
+        "xci_name": "LocationFSM_Location3_0_0",
+        "xci_path": "ip\\LocationFSM_Location3_0_0\\LocationFSM_Location3_0_0.xci",
+        "inst_hier_path": "Location3_0"
+      },
+      "Location4_0": {
+        "vlnv": "xilinx.com:user:Location4:1.0",
+        "xci_name": "LocationFSM_Location4_0_0",
+        "xci_path": "ip\\LocationFSM_Location4_0_0\\LocationFSM_Location4_0_0.xci",
+        "inst_hier_path": "Location4_0"
+      },
+      "Location5_0": {
+        "vlnv": "xilinx.com:user:Location5:1.0",
+        "xci_name": "LocationFSM_Location5_0_0",
+        "xci_path": "ip\\LocationFSM_Location5_0_0\\LocationFSM_Location5_0_0.xci",
+        "inst_hier_path": "Location5_0"
+      },
+      "Location6_0": {
+        "vlnv": "xilinx.com:user:Location6:1.0",
+        "xci_name": "LocationFSM_Location6_0_0",
+        "xci_path": "ip\\LocationFSM_Location6_0_0\\LocationFSM_Location6_0_0.xci",
+        "inst_hier_path": "Location6_0"
+      },
+      "xup_dff_reset_0": {
+        "vlnv": "xilinx.com:user:xup_dff_reset:1.0",
+        "xci_name": "LocationFSM_xup_dff_reset_0_0",
+        "xci_path": "ip\\LocationFSM_xup_dff_reset_0_0\\LocationFSM_xup_dff_reset_0_0.xci",
+        "inst_hier_path": "xup_dff_reset_0"
+      },
+      "xup_dff_reset_1": {
+        "vlnv": "xilinx.com:user:xup_dff_reset:1.0",
+        "xci_name": "LocationFSM_xup_dff_reset_0_1",
+        "xci_path": "ip\\LocationFSM_xup_dff_reset_0_1\\LocationFSM_xup_dff_reset_0_1.xci",
+        "inst_hier_path": "xup_dff_reset_1"
+      },
+      "xup_dff_reset_2": {
+        "vlnv": "xilinx.com:user:xup_dff_reset:1.0",
+        "xci_name": "LocationFSM_xup_dff_reset_0_2",
+        "xci_path": "ip\\LocationFSM_xup_dff_reset_0_2\\LocationFSM_xup_dff_reset_0_2.xci",
+        "inst_hier_path": "xup_dff_reset_2"
+      },
+      "xup_dff_reset_3": {
+        "vlnv": "xilinx.com:user:xup_dff_reset:1.0",
+        "xci_name": "LocationFSM_xup_dff_reset_0_3",
+        "xci_path": "ip\\LocationFSM_xup_dff_reset_0_3\\LocationFSM_xup_dff_reset_0_3.xci",
+        "inst_hier_path": "xup_dff_reset_3"
+      },
+      "xup_dff_reset_4": {
+        "vlnv": "xilinx.com:user:xup_dff_reset:1.0",
+        "xci_name": "LocationFSM_xup_dff_reset_0_4",
+        "xci_path": "ip\\LocationFSM_xup_dff_reset_0_4\\LocationFSM_xup_dff_reset_0_4.xci",
+        "inst_hier_path": "xup_dff_reset_4"
+      },
+      "xup_dff_reset_5": {
+        "vlnv": "xilinx.com:user:xup_dff_reset:1.0",
+        "xci_name": "LocationFSM_xup_dff_reset_0_5",
+        "xci_path": "ip\\LocationFSM_xup_dff_reset_0_5\\LocationFSM_xup_dff_reset_0_5.xci",
+        "inst_hier_path": "xup_dff_reset_5"
+      },
+      "xup_dff_set_0": {
+        "vlnv": "xilinx.com:user:xup_dff_set:1.0",
+        "xci_name": "LocationFSM_xup_dff_set_0_0",
+        "xci_path": "ip\\LocationFSM_xup_dff_set_0_0\\LocationFSM_xup_dff_set_0_0.xci",
+        "inst_hier_path": "xup_dff_set_0"
+      }
+    },
+    "nets": {
+      "E_1": {
+        "ports": [
+          "E",
+          "Location1_0/E",
+          "Location2_0/E",
+          "Location0_0/E",
+          "Location3_0/E",
+          "Location4_0/E"
+        ]
+      },
+      "Location0_0_D0": {
+        "ports": [
+          "Location0_0/D0",
+          "xup_dff_set_0/d"
+        ]
+      },
+      "Location1_0_D1": {
+        "ports": [
+          "Location1_0/D1",
+          "xup_dff_reset_0/d"
+        ]
+      },
+      "Location2_0_D2": {
+        "ports": [
+          "Location2_0/D2",
+          "xup_dff_reset_1/d"
+        ]
+      },
+      "Location3_0_D3": {
+        "ports": [
+          "Location3_0/D3",
+          "xup_dff_reset_2/d"
+        ]
+      },
+      "Location4_0_D4": {
+        "ports": [
+          "Location4_0/D4",
+          "xup_dff_reset_3/d"
+        ]
+      },
+      "Location5_0_D5": {
+        "ports": [
+          "Location5_0/D5",
+          "xup_dff_reset_4/d"
+        ]
+      },
+      "Location6_0_D6": {
+        "ports": [
+          "Location6_0/D6",
+          "xup_dff_reset_5/d"
+        ]
+      },
+      "N_1": {
+        "ports": [
+          "N",
+          "Location1_0/N",
+          "Location2_0/N"
+        ]
+      },
+      "S_1": {
+        "ports": [
+          "S",
+          "Location1_0/S",
+          "Location2_0/S"
+        ]
+      },
+      "V_1": {
+        "ports": [
+          "V",
+          "Location6_0/V",
+          "Location5_0/V"
+        ]
+      },
+      "W_1": {
+        "ports": [
+          "W",
+          "Location0_0/W",
+          "Location1_0/W",
+          "Location2_0/W",
+          "Location3_0/W"
+        ]
+      },
+      "clock_1": {
+        "ports": [
+          "clock",
+          "xup_dff_reset_0/clk",
+          "xup_dff_reset_1/clk",
+          "xup_dff_reset_2/clk",
+          "xup_dff_reset_3/clk",
+          "xup_dff_reset_5/clk",
+          "xup_dff_set_0/clk",
+          "xup_dff_reset_4/clk"
+        ]
+      },
+      "reset_1": {
+        "ports": [
+          "reset",
+          "xup_dff_reset_0/reset",
+          "xup_dff_reset_1/reset",
+          "xup_dff_reset_2/reset",
+          "xup_dff_reset_3/reset",
+          "xup_dff_reset_5/reset",
+          "xup_dff_reset_4/reset",
+          "xup_dff_set_0/reset"
+        ]
+      },
+      "xup_dff_reset_0_q": {
+        "ports": [
+          "xup_dff_reset_0/q",
+          "q1",
+          "Location2_0/Q1",
+          "Location1_0/Q1",
+          "Location0_0/Q1"
+        ]
+      },
+      "xup_dff_reset_1_q": {
+        "ports": [
+          "xup_dff_reset_1/q",
+          "q2",
+          "Location2_0/Q2",
+          "Location3_0/Q2",
+          "Location4_0/Q2",
+          "Location1_0/Q2"
+        ]
+      },
+      "xup_dff_reset_2_q": {
+        "ports": [
+          "xup_dff_reset_2/q",
+          "q3",
+          "Location3_0/Q3",
+          "Location2_0/Q3",
+          "SW"
+        ]
+      },
+      "xup_dff_reset_3_q": {
+        "ports": [
+          "xup_dff_reset_3/q",
+          "q4",
+          "Location5_0/Q4",
+          "Location6_0/Q4"
+        ]
+      },
+      "xup_dff_reset_4_q": {
+        "ports": [
+          "xup_dff_reset_4/q",
+          "q5",
+          "Location5_0/Q5",
+          "D"
+        ]
+      },
+      "xup_dff_reset_5_q": {
+        "ports": [
+          "xup_dff_reset_5/q",
+          "WIN",
+          "q6",
+          "Location6_0/Q6"
+        ]
+      },
+      "xup_dff_set_0_q": {
+        "ports": [
+          "xup_dff_set_0/q",
+          "q0",
+          "Location1_0/Q0",
+          "Location0_0/Q0"
+        ]
+      }
+    }
   }
 }
