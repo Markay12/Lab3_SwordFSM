@@ -1,13 +1,79 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x0",
+      "boundary_crc": "0xC5E5DF4A0B66F1C6",
+      "device": "xc7a100tcsg324-1",
       "gen_directory": "../../../../lab3.gen/sources_1/bd/SwordFSM",
       "name": "SwordFSM",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2021.2"
+      "tool_version": "2021.2",
+      "validated": "true"
     },
-    "design_tree": {}
+    "design_tree": {
+      "Sword_0": "",
+      "xup_dff_reset_0": ""
+    },
+    "ports": {
+      "clock": {
+        "direction": "I"
+      },
+      "reset": {
+        "direction": "I"
+      },
+      "V": {
+        "direction": "O"
+      },
+      "SW": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "Sword_0": {
+        "vlnv": "xilinx.com:user:Sword:1.0",
+        "xci_name": "SwordFSM_Sword_0_0",
+        "xci_path": "ip\\SwordFSM_Sword_0_0\\SwordFSM_Sword_0_0.xci",
+        "inst_hier_path": "Sword_0"
+      },
+      "xup_dff_reset_0": {
+        "vlnv": "xilinx.com:user:xup_dff_reset:1.0",
+        "xci_name": "SwordFSM_xup_dff_reset_0_0",
+        "xci_path": "ip\\SwordFSM_xup_dff_reset_0_0\\SwordFSM_xup_dff_reset_0_0.xci",
+        "inst_hier_path": "xup_dff_reset_0"
+      }
+    },
+    "nets": {
+      "SW_1": {
+        "ports": [
+          "SW",
+          "Sword_0/SW"
+        ]
+      },
+      "Sword_0_V": {
+        "ports": [
+          "Sword_0/V",
+          "xup_dff_reset_0/d"
+        ]
+      },
+      "clock_1": {
+        "ports": [
+          "clock",
+          "xup_dff_reset_0/clk"
+        ]
+      },
+      "reset_1": {
+        "ports": [
+          "reset",
+          "xup_dff_reset_0/reset"
+        ]
+      },
+      "xup_dff_reset_0_q": {
+        "ports": [
+          "xup_dff_reset_0/q",
+          "V",
+          "Sword_0/Q"
+        ]
+      }
+    }
   }
 }

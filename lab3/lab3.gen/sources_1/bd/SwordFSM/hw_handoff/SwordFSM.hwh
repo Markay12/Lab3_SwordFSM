@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Mar 15 17:31:06 2022" VIVADOVERSION="2021.2">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a100t" NAME="SwordFSM" PACKAGE="csg324" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="clock" SIGIS="undef" SIGNAME="External_Ports_clock">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_dff_reset_0" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="reset" SIGIS="undef" SIGNAME="External_Ports_reset">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_dff_reset_0" PORT="reset"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="V" SIGIS="undef" SIGNAME="xup_dff_reset_0_q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_dff_reset_0" PORT="q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="SW" SIGIS="undef" SIGNAME="External_Ports_SW">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Sword_0" PORT="SW"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="2" FULLNAME="/Sword_0" HWVERSION="1.0" INSTANCE="Sword_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Sword" VLNV="xilinx.com:user:Sword:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="SwordFSM_Sword_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="Q" SIGIS="undef" SIGNAME="xup_dff_reset_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_dff_reset_0" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="SW" SIGIS="undef" SIGNAME="External_Ports_SW">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="SW"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="V" SIGIS="undef" SIGNAME="Sword_0_V">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_dff_reset_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/xup_dff_reset_0" HWVERSION="1.0" INSTANCE="xup_dff_reset_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff_reset" VLNV="xilinx.com:user:xup_dff_reset:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="SwordFSM_xup_dff_reset_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="Sword_0_V">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Sword_0" PORT="V"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clock">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clock"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="xup_dff_reset_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="V"/>
+            <CONNECTION INSTANCE="Sword_0" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>
