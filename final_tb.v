@@ -31,7 +31,7 @@ wire[2:0] Location;
 wire D;
 wire WIN;
 
-design_1_wrapper DUT(
+FullGameSchema_wrapper DUT(
                 .clock(clock),
                 .reset(reset),    
                 .N(N),    

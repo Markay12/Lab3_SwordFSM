@@ -1,0 +1,48 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ipshared/e1c7/src/Edge_Detector.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_Edge_Detector_0_0/sim/FullGameSchema_Edge_Detector_0_0.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_Edge_Detector_0_1/sim/FullGameSchema_Edge_Detector_0_1.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_Edge_Detector_0_2/sim/FullGameSchema_Edge_Detector_0_2.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_Edge_Detector_0_3/sim/FullGameSchema_Edge_Detector_0_3.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_SwordFSM_wrapper_0_0/ipshared/ce27/src/Sword.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_SwordFSM_wrapper_0_0/src/SwordFSM_Sword_0_0/sim/SwordFSM_Sword_0_0.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_SwordFSM_wrapper_0_0/ipshared/727d/src/xup_dff_reset.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_SwordFSM_wrapper_0_0/src/SwordFSM_xup_dff_reset_0_0/sim/SwordFSM_xup_dff_reset_0_0.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ipshared/7497/sim/SwordFSM.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ipshared/7497/src/SwordFSM_wrapper.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_SwordFSM_wrapper_0_0/sim/FullGameSchema_SwordFSM_wrapper_0_0.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/5f2f/src/Location0.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location0_0_0/sim/LocationFSM_Location0_0_0.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/5e1b/src/Location1.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location1_0_0/sim/LocationFSM_Location1_0_0.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/25ca/src/Location2.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location2_0_0/sim/LocationFSM_Location2_0_0.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/029e/src/Location3.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location3_0_0/sim/LocationFSM_Location3_0_0.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/6afe/src/Location4.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location4_0_0/sim/LocationFSM_Location4_0_0.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/ec98/src/Location5.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location5_0_0/sim/LocationFSM_Location5_0_0.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/06b0/src/Location6.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location6_0_0/sim/LocationFSM_Location6_0_0.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_reset_0_0/sim/LocationFSM_xup_dff_reset_0_0.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_reset_0_1/sim/LocationFSM_xup_dff_reset_0_1.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_reset_0_2/sim/LocationFSM_xup_dff_reset_0_2.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_reset_0_3/sim/LocationFSM_xup_dff_reset_0_3.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_reset_0_4/sim/LocationFSM_xup_dff_reset_0_4.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_reset_0_5/sim/LocationFSM_xup_dff_reset_0_5.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/81d5/src/xup_dff_set.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_set_0_0/sim/LocationFSM_xup_dff_set_0_0.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ipshared/4645/sim/LocationFSM.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ipshared/4645/src/LocationFSM_wrapper.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/sim/FullGameSchema_LocationFSM_wrapper_0_0.v" \
+"../../../../lab3.ip_user_files/bd/FullGameSchema/sim/FullGameSchema.v" \
+"../../../../lab3.gen/sources_1/bd/FullGameSchema/hdl/FullGameSchema_wrapper.v" \
+"../../../../../final_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

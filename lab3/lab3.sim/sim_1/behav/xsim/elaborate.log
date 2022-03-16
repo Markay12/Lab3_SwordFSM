@@ -1,0 +1,52 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot final_tb_behav xil_defaultlib.final_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Edge_Detector
+Compiling module xil_defaultlib.FullGameSchema_Edge_Detector_0_0
+Compiling module xil_defaultlib.FullGameSchema_Edge_Detector_0_1
+Compiling module xil_defaultlib.FullGameSchema_Edge_Detector_0_2
+Compiling module xil_defaultlib.FullGameSchema_Edge_Detector_0_3
+Compiling module xil_defaultlib.Location0
+Compiling module xil_defaultlib.LocationFSM_Location0_0_0
+Compiling module xil_defaultlib.Location1
+Compiling module xil_defaultlib.LocationFSM_Location1_0_0
+Compiling module xil_defaultlib.Location2
+Compiling module xil_defaultlib.LocationFSM_Location2_0_0
+Compiling module xil_defaultlib.Location3
+Compiling module xil_defaultlib.LocationFSM_Location3_0_0
+Compiling module xil_defaultlib.Location4
+Compiling module xil_defaultlib.LocationFSM_Location4_0_0
+Compiling module xil_defaultlib.Location5
+Compiling module xil_defaultlib.LocationFSM_Location5_0_0
+Compiling module xil_defaultlib.Location6
+Compiling module xil_defaultlib.LocationFSM_Location6_0_0
+Compiling module xil_defaultlib.xup_dff_reset
+Compiling module xil_defaultlib.LocationFSM_xup_dff_reset_0_0
+Compiling module xil_defaultlib.LocationFSM_xup_dff_reset_0_1
+Compiling module xil_defaultlib.LocationFSM_xup_dff_reset_0_2
+Compiling module xil_defaultlib.LocationFSM_xup_dff_reset_0_3
+Compiling module xil_defaultlib.LocationFSM_xup_dff_reset_0_4
+Compiling module xil_defaultlib.LocationFSM_xup_dff_reset_0_5
+Compiling module xil_defaultlib.xup_dff_set
+Compiling module xil_defaultlib.LocationFSM_xup_dff_set_0_0
+Compiling module xil_defaultlib.LocationFSM
+Compiling module xil_defaultlib.LocationFSM_wrapper
+Compiling module xil_defaultlib.FullGameSchema_LocationFSM_wrapp...
+Compiling module xil_defaultlib.Sword
+Compiling module xil_defaultlib.SwordFSM_Sword_0_0
+Compiling module xil_defaultlib.SwordFSM_xup_dff_reset_0_0
+Compiling module xil_defaultlib.SwordFSM
+Compiling module xil_defaultlib.SwordFSM_wrapper
+Compiling module xil_defaultlib.FullGameSchema_SwordFSM_wrapper_...
+Compiling module xil_defaultlib.FullGameSchema
+Compiling module xil_defaultlib.FullGameSchema_wrapper
+Compiling module xil_defaultlib.final_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot final_tb_behav

@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Mar 15 17:42:23 2022
+# Process ID: 5300
+# Current directory: C:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.runs/FullGameSchema_Edge_Detector_0_1_synth_1
+# Command line: vivado.exe -log FullGameSchema_Edge_Detector_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FullGameSchema_Edge_Detector_0_1.tcl
+# Log file: C:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.runs/FullGameSchema_Edge_Detector_0_1_synth_1/FullGameSchema_Edge_Detector_0_1.vds
+# Journal file: C:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.runs/FullGameSchema_Edge_Detector_0_1_synth_1\vivado.jou
+# Running On: marksdesktop, OS: Windows, CPU Frequency: 3593 MHz, CPU Physical cores: 12, Host memory: 17121 MB
+#-----------------------------------------------------------
+source FullGameSchema_Edge_Detector_0_1.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1255.617 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/XUP_LIB/XUP_LIB/SwordFSM'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/XUP_LIB/XUP_LIB'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/XUP_LIB/XUP_LIB/Location4'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/XUP_LIB/XUP_LIB/Location3'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/XUP_LIB/XUP_LIB/Location2'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/XUP_LIB/XUP_LIB/Location1'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/XUP_LIB/XUP_LIB/Location0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/XUP_LIB/XUP_LIB/Location5'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/XUP_LIB/XUP_LIB/Location6'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2021.2/data/ip'.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP FullGameSchema_Edge_Detector_0_1, cache-ID = bc6af9eaae3ce056.
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 15 17:42:37 2022...

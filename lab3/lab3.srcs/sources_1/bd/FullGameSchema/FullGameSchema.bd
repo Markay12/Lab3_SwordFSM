@@ -1,13 +1,245 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x0",
+      "boundary_crc": "0xD603180E821CF6B3",
+      "device": "xc7a100tcsg324-1",
       "gen_directory": "../../../../lab3.gen/sources_1/bd/FullGameSchema",
       "name": "FullGameSchema",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2021.2"
+      "tool_version": "2021.2",
+      "validated": "true"
     },
-    "design_tree": {}
+    "design_tree": {
+      "Edge_Detector_0": "",
+      "Edge_Detector_1": "",
+      "Edge_Detector_2": "",
+      "Edge_Detector_3": "",
+      "SwordFSM_wrapper_0": "",
+      "LocationFSM_wrapper_0": ""
+    },
+    "ports": {
+      "clock": {
+        "direction": "I"
+      },
+      "reset": {
+        "direction": "I"
+      },
+      "V": {
+        "direction": "O"
+      },
+      "N": {
+        "direction": "I"
+      },
+      "S": {
+        "direction": "I"
+      },
+      "E": {
+        "direction": "I"
+      },
+      "W": {
+        "direction": "I"
+      },
+      "D": {
+        "direction": "O"
+      },
+      "WIN": {
+        "direction": "O"
+      },
+      "q0": {
+        "direction": "O"
+      },
+      "q1": {
+        "direction": "O"
+      },
+      "q2": {
+        "direction": "O"
+      },
+      "q3": {
+        "direction": "O"
+      },
+      "q4": {
+        "direction": "O"
+      },
+      "q5": {
+        "direction": "O"
+      },
+      "q6": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "Edge_Detector_0": {
+        "vlnv": "asu.edu:user:Edge_Detector:1.0",
+        "xci_name": "FullGameSchema_Edge_Detector_0_0",
+        "xci_path": "ip\\FullGameSchema_Edge_Detector_0_0\\FullGameSchema_Edge_Detector_0_0.xci",
+        "inst_hier_path": "Edge_Detector_0"
+      },
+      "Edge_Detector_1": {
+        "vlnv": "asu.edu:user:Edge_Detector:1.0",
+        "xci_name": "FullGameSchema_Edge_Detector_0_1",
+        "xci_path": "ip\\FullGameSchema_Edge_Detector_0_1\\FullGameSchema_Edge_Detector_0_1.xci",
+        "inst_hier_path": "Edge_Detector_1"
+      },
+      "Edge_Detector_2": {
+        "vlnv": "asu.edu:user:Edge_Detector:1.0",
+        "xci_name": "FullGameSchema_Edge_Detector_0_2",
+        "xci_path": "ip\\FullGameSchema_Edge_Detector_0_2\\FullGameSchema_Edge_Detector_0_2.xci",
+        "inst_hier_path": "Edge_Detector_2"
+      },
+      "Edge_Detector_3": {
+        "vlnv": "asu.edu:user:Edge_Detector:1.0",
+        "xci_name": "FullGameSchema_Edge_Detector_0_3",
+        "xci_path": "ip\\FullGameSchema_Edge_Detector_0_3\\FullGameSchema_Edge_Detector_0_3.xci",
+        "inst_hier_path": "Edge_Detector_3"
+      },
+      "SwordFSM_wrapper_0": {
+        "vlnv": "xilinx.com:user:SwordFSM_wrapper:1.0",
+        "xci_name": "FullGameSchema_SwordFSM_wrapper_0_0",
+        "xci_path": "ip\\FullGameSchema_SwordFSM_wrapper_0_0\\FullGameSchema_SwordFSM_wrapper_0_0.xci",
+        "inst_hier_path": "SwordFSM_wrapper_0"
+      },
+      "LocationFSM_wrapper_0": {
+        "vlnv": "xilinx.com:user:LocationFSM_wrapper:1.0",
+        "xci_name": "FullGameSchema_LocationFSM_wrapper_0_0",
+        "xci_path": "ip\\FullGameSchema_LocationFSM_wrapper_0_0\\FullGameSchema_LocationFSM_wrapper_0_0.xci",
+        "inst_hier_path": "LocationFSM_wrapper_0"
+      }
+    },
+    "nets": {
+      "E_1": {
+        "ports": [
+          "E",
+          "Edge_Detector_3/signal"
+        ]
+      },
+      "Edge_Detector_0_posedge_signal": {
+        "ports": [
+          "Edge_Detector_0/posedge_signal",
+          "LocationFSM_wrapper_0/W"
+        ]
+      },
+      "Edge_Detector_1_posedge_signal": {
+        "ports": [
+          "Edge_Detector_1/posedge_signal",
+          "LocationFSM_wrapper_0/S"
+        ]
+      },
+      "Edge_Detector_2_posedge_signal": {
+        "ports": [
+          "Edge_Detector_2/posedge_signal",
+          "LocationFSM_wrapper_0/N"
+        ]
+      },
+      "Edge_Detector_3_posedge_signal": {
+        "ports": [
+          "Edge_Detector_3/posedge_signal",
+          "LocationFSM_wrapper_0/E"
+        ]
+      },
+      "LocationFSM_wrapper_0_D": {
+        "ports": [
+          "LocationFSM_wrapper_0/D",
+          "D"
+        ]
+      },
+      "LocationFSM_wrapper_0_SW": {
+        "ports": [
+          "LocationFSM_wrapper_0/SW",
+          "SwordFSM_wrapper_0/SW"
+        ]
+      },
+      "LocationFSM_wrapper_0_WIN": {
+        "ports": [
+          "LocationFSM_wrapper_0/WIN",
+          "WIN"
+        ]
+      },
+      "LocationFSM_wrapper_0_q0": {
+        "ports": [
+          "LocationFSM_wrapper_0/q0",
+          "q0"
+        ]
+      },
+      "LocationFSM_wrapper_0_q1": {
+        "ports": [
+          "LocationFSM_wrapper_0/q1",
+          "q1"
+        ]
+      },
+      "LocationFSM_wrapper_0_q2": {
+        "ports": [
+          "LocationFSM_wrapper_0/q2",
+          "q2"
+        ]
+      },
+      "LocationFSM_wrapper_0_q3": {
+        "ports": [
+          "LocationFSM_wrapper_0/q3",
+          "q3"
+        ]
+      },
+      "LocationFSM_wrapper_0_q4": {
+        "ports": [
+          "LocationFSM_wrapper_0/q4",
+          "q4"
+        ]
+      },
+      "LocationFSM_wrapper_0_q5": {
+        "ports": [
+          "LocationFSM_wrapper_0/q5",
+          "q5"
+        ]
+      },
+      "LocationFSM_wrapper_0_q6": {
+        "ports": [
+          "LocationFSM_wrapper_0/q6",
+          "q6"
+        ]
+      },
+      "N_1": {
+        "ports": [
+          "N",
+          "Edge_Detector_2/signal"
+        ]
+      },
+      "S_1": {
+        "ports": [
+          "S",
+          "Edge_Detector_1/signal"
+        ]
+      },
+      "SwordFSM_wrapper_0_V": {
+        "ports": [
+          "SwordFSM_wrapper_0/V",
+          "V",
+          "LocationFSM_wrapper_0/V"
+        ]
+      },
+      "W_1": {
+        "ports": [
+          "W",
+          "Edge_Detector_0/signal"
+        ]
+      },
+      "clock_1": {
+        "ports": [
+          "clock",
+          "Edge_Detector_0/clk",
+          "Edge_Detector_1/clk",
+          "Edge_Detector_2/clk",
+          "Edge_Detector_3/clk",
+          "LocationFSM_wrapper_0/clock",
+          "SwordFSM_wrapper_0/clock"
+        ]
+      },
+      "reset_1": {
+        "ports": [
+          "reset",
+          "LocationFSM_wrapper_0/reset",
+          "SwordFSM_wrapper_0/reset"
+        ]
+      }
+    }
   }
 }

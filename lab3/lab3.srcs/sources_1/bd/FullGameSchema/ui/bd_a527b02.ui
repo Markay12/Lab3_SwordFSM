@@ -1,0 +1,55 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-435,-1042",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_clock -pg 1 -lvl 0 -x 0 -y -1020 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x 0 -y -1000 -defaultsOSRD
+preplace port port-id_V -pg 1 -lvl 3 -x 1000 -y -1020 -defaultsOSRD
+preplace port port-id_N -pg 1 -lvl 0 -x 0 -y -980 -defaultsOSRD
+preplace port port-id_S -pg 1 -lvl 0 -x 0 -y -960 -defaultsOSRD
+preplace port port-id_E -pg 1 -lvl 0 -x 0 -y -940 -defaultsOSRD
+preplace port port-id_W -pg 1 -lvl 0 -x 0 -y -920 -defaultsOSRD
+preplace port port-id_D -pg 1 -lvl 3 -x 1000 -y -1000 -defaultsOSRD
+preplace port port-id_WIN -pg 1 -lvl 3 -x 1000 -y -980 -defaultsOSRD
+preplace port port-id_q0 -pg 1 -lvl 3 -x 1000 -y -960 -defaultsOSRD
+preplace port port-id_q1 -pg 1 -lvl 3 -x 1000 -y -940 -defaultsOSRD
+preplace port port-id_q2 -pg 1 -lvl 3 -x 1000 -y -920 -defaultsOSRD
+preplace port port-id_q3 -pg 1 -lvl 3 -x 1000 -y -900 -defaultsOSRD
+preplace port port-id_q4 -pg 1 -lvl 3 -x 1000 -y -880 -defaultsOSRD
+preplace port port-id_q5 -pg 1 -lvl 3 -x 1000 -y -860 -defaultsOSRD
+preplace port port-id_q6 -pg 1 -lvl 3 -x 1000 -y -840 -defaultsOSRD
+preplace inst Edge_Detector_0 -pg 1 -lvl 1 -x 330 -y -400 -defaultsOSRD
+preplace inst Edge_Detector_1 -pg 1 -lvl 1 -x 330 -y -520 -defaultsOSRD
+preplace inst Edge_Detector_2 -pg 1 -lvl 1 -x 330 -y -650 -defaultsOSRD
+preplace inst Edge_Detector_3 -pg 1 -lvl 1 -x 330 -y -780 -defaultsOSRD
+preplace inst SwordFSM_wrapper_0 -pg 1 -lvl 1 -x 330 -y -270 -defaultsOSRD
+preplace inst LocationFSM_wrapper_0 -pg 1 -lvl 2 -x 780 -y -500 -defaultsOSRD
+preplace netloc clock_1 1 0 2 60 -860 470
+preplace netloc reset_1 1 0 2 30J -190 480
+preplace netloc SwordFSM_wrapper_0_V 1 1 2 450J -1020 N
+preplace netloc LocationFSM_wrapper_0_SW 1 0 3 80 -850 NJ -850 890
+preplace netloc N_1 1 0 1 70 -980n
+preplace netloc Edge_Detector_2_posedge_signal 1 1 1 460 -660n
+preplace netloc S_1 1 0 1 40 -960n
+preplace netloc Edge_Detector_1_posedge_signal 1 1 1 440 -530n
+preplace netloc E_1 1 0 1 50 -940n
+preplace netloc Edge_Detector_3_posedge_signal 1 1 1 480 -790n
+preplace netloc W_1 1 0 1 20 -920n
+preplace netloc Edge_Detector_0_posedge_signal 1 1 1 460 -480n
+preplace netloc LocationFSM_wrapper_0_D 1 2 1 900 -1000n
+preplace netloc LocationFSM_wrapper_0_WIN 1 2 1 910 -980n
+preplace netloc LocationFSM_wrapper_0_q0 1 2 1 920 -960n
+preplace netloc LocationFSM_wrapper_0_q1 1 2 1 930 -940n
+preplace netloc LocationFSM_wrapper_0_q2 1 2 1 940 -920n
+preplace netloc LocationFSM_wrapper_0_q3 1 2 1 950 -900n
+preplace netloc LocationFSM_wrapper_0_q4 1 2 1 960 -880n
+preplace netloc LocationFSM_wrapper_0_q5 1 2 1 970 -860n
+preplace netloc LocationFSM_wrapper_0_q6 1 2 1 980 -840n
+levelinfo -pg 1 0 330 780 1000
+pagesize -pg 1 -db -bbox -sgen -90 -1040 1080 140
+"
+}
+

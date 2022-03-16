@@ -1,0 +1,324 @@
+
+*** Running vivado
+    with args -log FullGameSchema_LocationFSM_wrapper_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source FullGameSchema_LocationFSM_wrapper_0_0.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source FullGameSchema_LocationFSM_wrapper_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 846.465 ; gain = 96.445
+
+*** Running vivado
+    with args -log FullGameSchema_LocationFSM_wrapper_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source FullGameSchema_LocationFSM_wrapper_0_0.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source FullGameSchema_LocationFSM_wrapper_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 846.871 ; gain = 95.492
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/XUP_LIB/XUP_LIB/SwordFSM'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/XUP_LIB/XUP_LIB'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/XUP_LIB/XUP_LIB/Location4'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/XUP_LIB/XUP_LIB/Location3'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/XUP_LIB/XUP_LIB/Location2'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/XUP_LIB/XUP_LIB/Location1'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/XUP_LIB/XUP_LIB/Location0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/XUP_LIB/XUP_LIB/Location5'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/XUP_LIB/XUP_LIB/Location6'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2021.2/data/ip'.
+Command: synth_design -top FullGameSchema_LocationFSM_wrapper_0_0 -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 21796
+WARNING: [Synth 8-2611] redeclaration of ansi port q is not allowed [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/81d5/src/xup_dff_set.v:11]
+WARNING: [Synth 8-2611] redeclaration of ansi port q is not allowed [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/727d/src/xup_dff_reset.v:11]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'FullGameSchema_LocationFSM_wrapper_0_0' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/synth/FullGameSchema_LocationFSM_wrapper_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'LocationFSM_wrapper' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ipshared/4645/src/LocationFSM_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'LocationFSM' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ipshared/4645/src/LocationFSM.v:13]
+INFO: [Synth 8-6157] synthesizing module 'LocationFSM_Location0_0_0' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location0_0_0/synth/LocationFSM_Location0_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'Location0' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/5f2f/src/Location0.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Location0' (1#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/5f2f/src/Location0.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'LocationFSM_Location0_0_0' (2#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location0_0_0/synth/LocationFSM_Location0_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'LocationFSM_Location1_0_0' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location1_0_0/synth/LocationFSM_Location1_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'Location1' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/5e1b/src/Location1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Location1' (3#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/5e1b/src/Location1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'LocationFSM_Location1_0_0' (4#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location1_0_0/synth/LocationFSM_Location1_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'LocationFSM_Location2_0_0' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location2_0_0/synth/LocationFSM_Location2_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'Location2' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/25ca/src/Location2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Location2' (5#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/25ca/src/Location2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'LocationFSM_Location2_0_0' (6#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location2_0_0/synth/LocationFSM_Location2_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'LocationFSM_Location3_0_0' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location3_0_0/synth/LocationFSM_Location3_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'Location3' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/029e/src/Location3.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Location3' (7#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/029e/src/Location3.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'LocationFSM_Location3_0_0' (8#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location3_0_0/synth/LocationFSM_Location3_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'LocationFSM_Location4_0_0' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location4_0_0/synth/LocationFSM_Location4_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'Location4' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/6afe/src/Location4.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Location4' (9#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/6afe/src/Location4.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'LocationFSM_Location4_0_0' (10#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location4_0_0/synth/LocationFSM_Location4_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'LocationFSM_Location5_0_0' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location5_0_0/synth/LocationFSM_Location5_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'Location5' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/ec98/src/Location5.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Location5' (11#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/ec98/src/Location5.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'LocationFSM_Location5_0_0' (12#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location5_0_0/synth/LocationFSM_Location5_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'LocationFSM_Location6_0_0' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location6_0_0/synth/LocationFSM_Location6_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'Location6' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/06b0/src/Location6.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Location6' (13#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/06b0/src/Location6.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'LocationFSM_Location6_0_0' (14#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location6_0_0/synth/LocationFSM_Location6_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'LocationFSM_xup_dff_reset_0_0' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_reset_0_0/synth/LocationFSM_xup_dff_reset_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xup_dff_reset' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/727d/src/xup_dff_reset.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'xup_dff_reset' (15#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/727d/src/xup_dff_reset.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'LocationFSM_xup_dff_reset_0_0' (16#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_reset_0_0/synth/LocationFSM_xup_dff_reset_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'LocationFSM_xup_dff_reset_0_1' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_reset_0_1/synth/LocationFSM_xup_dff_reset_0_1.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'LocationFSM_xup_dff_reset_0_1' (17#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_reset_0_1/synth/LocationFSM_xup_dff_reset_0_1.v:58]
+INFO: [Synth 8-6157] synthesizing module 'LocationFSM_xup_dff_reset_0_2' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_reset_0_2/synth/LocationFSM_xup_dff_reset_0_2.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'LocationFSM_xup_dff_reset_0_2' (18#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_reset_0_2/synth/LocationFSM_xup_dff_reset_0_2.v:58]
+INFO: [Synth 8-6157] synthesizing module 'LocationFSM_xup_dff_reset_0_3' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_reset_0_3/synth/LocationFSM_xup_dff_reset_0_3.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'LocationFSM_xup_dff_reset_0_3' (19#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_reset_0_3/synth/LocationFSM_xup_dff_reset_0_3.v:58]
+INFO: [Synth 8-6157] synthesizing module 'LocationFSM_xup_dff_reset_0_4' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_reset_0_4/synth/LocationFSM_xup_dff_reset_0_4.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'LocationFSM_xup_dff_reset_0_4' (20#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_reset_0_4/synth/LocationFSM_xup_dff_reset_0_4.v:58]
+INFO: [Synth 8-6157] synthesizing module 'LocationFSM_xup_dff_reset_0_5' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_reset_0_5/synth/LocationFSM_xup_dff_reset_0_5.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'LocationFSM_xup_dff_reset_0_5' (21#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_reset_0_5/synth/LocationFSM_xup_dff_reset_0_5.v:58]
+INFO: [Synth 8-6157] synthesizing module 'LocationFSM_xup_dff_set_0_0' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_set_0_0/synth/LocationFSM_xup_dff_set_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xup_dff_set' [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/81d5/src/xup_dff_set.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'xup_dff_set' (22#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/ipshared/81d5/src/xup_dff_set.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'LocationFSM_xup_dff_set_0_0' (23#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_xup_dff_set_0_0/synth/LocationFSM_xup_dff_set_0_0.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'LocationFSM' (24#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ipshared/4645/src/LocationFSM.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'LocationFSM_wrapper' (25#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ipshared/4645/src/LocationFSM_wrapper.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'FullGameSchema_LocationFSM_wrapper_0_0' (26#1) [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/synth/FullGameSchema_LocationFSM_wrapper_0_0.v:58]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1736.840 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_ooc.xdc] for cell 'inst/LocationFSM_i'
+Finished Parsing XDC File [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_ooc.xdc] for cell 'inst/LocationFSM_i'
+Parsing XDC File [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location6_0_0/src/Nexys-A7-100T-Master.xdc] for cell 'inst/LocationFSM_i/Location6_0/inst'
+Finished Parsing XDC File [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location6_0_0/src/Nexys-A7-100T-Master.xdc] for cell 'inst/LocationFSM_i/Location6_0/inst'
+Parsing XDC File [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location5_0_0/src/Nexys-A7-100T-Master.xdc] for cell 'inst/LocationFSM_i/Location5_0/inst'
+Finished Parsing XDC File [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location5_0_0/src/Nexys-A7-100T-Master.xdc] for cell 'inst/LocationFSM_i/Location5_0/inst'
+WARNING: [Designutils 20-1758] instance inst wraps a black box. Constraint reading is skipped for elaborated designs in this case. Skipping constraint file 'c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location4_0_0/src/Nexys-A7-100T-Master.xdc'.
+Parsing XDC File [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location3_0_0/src/Nexys-A7-100T-Master.xdc] for cell 'inst/LocationFSM_i/Location3_0/inst'
+Finished Parsing XDC File [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location3_0_0/src/Nexys-A7-100T-Master.xdc] for cell 'inst/LocationFSM_i/Location3_0/inst'
+Parsing XDC File [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location2_0_0/src/Nexys-A7-100T-Master.xdc] for cell 'inst/LocationFSM_i/Location2_0/inst'
+Finished Parsing XDC File [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location2_0_0/src/Nexys-A7-100T-Master.xdc] for cell 'inst/LocationFSM_i/Location2_0/inst'
+Parsing XDC File [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location1_0_0/src/Nexys-A7-100T-Master.xdc] for cell 'inst/LocationFSM_i/Location1_0/inst'
+Finished Parsing XDC File [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location1_0_0/src/Nexys-A7-100T-Master.xdc] for cell 'inst/LocationFSM_i/Location1_0/inst'
+Parsing XDC File [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location0_0_0/src/Nexys-A7-100T-Master.xdc] for cell 'inst/LocationFSM_i/Location0_0/inst'
+Finished Parsing XDC File [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/LocationFSM_Location0_0_0/src/Nexys-A7-100T-Master.xdc] for cell 'inst/LocationFSM_i/Location0_0/inst'
+Parsing XDC File [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/Nexys-A7-100T-Master.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.gen/sources_1/bd/FullGameSchema/ip/FullGameSchema_LocationFSM_wrapper_0_0/src/Nexys-A7-100T-Master.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.runs/FullGameSchema_LocationFSM_wrapper_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.runs/FullGameSchema_LocationFSM_wrapper_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.runs/FullGameSchema_LocationFSM_wrapper_0_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/FullGameSchema_LocationFSM_wrapper_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/FullGameSchema_LocationFSM_wrapper_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1736.840 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/Location0_0/inst. (constraint file  C:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.runs/FullGameSchema_LocationFSM_wrapper_0_0_synth_1/dont_touch.xdc, line 50).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/Location1_0/inst. (constraint file  C:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.runs/FullGameSchema_LocationFSM_wrapper_0_0_synth_1/dont_touch.xdc, line 53).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/Location2_0/inst. (constraint file  C:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.runs/FullGameSchema_LocationFSM_wrapper_0_0_synth_1/dont_touch.xdc, line 56).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/Location3_0/inst. (constraint file  C:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.runs/FullGameSchema_LocationFSM_wrapper_0_0_synth_1/dont_touch.xdc, line 59).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/Location4_0/inst. (constraint file  C:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.runs/FullGameSchema_LocationFSM_wrapper_0_0_synth_1/dont_touch.xdc, line 62).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/Location5_0/inst. (constraint file  C:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.runs/FullGameSchema_LocationFSM_wrapper_0_0_synth_1/dont_touch.xdc, line 65).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/Location6_0/inst. (constraint file  C:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.runs/FullGameSchema_LocationFSM_wrapper_0_0_synth_1/dont_touch.xdc, line 68).
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.runs/FullGameSchema_LocationFSM_wrapper_0_0_synth_1/dont_touch.xdc, line 72).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/xup_dff_set_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/xup_dff_reset_5. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/xup_dff_reset_4. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/xup_dff_reset_3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/xup_dff_reset_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/xup_dff_reset_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/xup_dff_reset_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/Location6_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/Location5_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/Location4_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/Location3_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/Location2_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/Location1_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/LocationFSM_i/Location0_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     8|
+|2     |LUT3 |     4|
+|3     |LUT4 |     2|
+|4     |LUT5 |     2|
+|5     |FDRE |     7|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 1736.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:50 . Memory (MB): peak = 1736.840 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:51 ; elapsed = 00:00:54 . Memory (MB): peak = 1736.840 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1736.840 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1736.840 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: b99d9cde
+INFO: [Common 17-83] Releasing license: Synthesis
+68 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:01 ; elapsed = 00:01:07 . Memory (MB): peak = 1736.840 ; gain = 860.117
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.runs/FullGameSchema_LocationFSM_wrapper_0_0_synth_1/FullGameSchema_LocationFSM_wrapper_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP FullGameSchema_LocationFSM_wrapper_0_0, cache-ID = da3d4c7ff52f28fc
+INFO: [Coretcl 2-1174] Renamed 30 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ashin/OneDrive/Desktop/Lab3_SwordFSM/lab3/lab3.runs/FullGameSchema_LocationFSM_wrapper_0_0_synth_1/FullGameSchema_LocationFSM_wrapper_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file FullGameSchema_LocationFSM_wrapper_0_0_utilization_synth.rpt -pb FullGameSchema_LocationFSM_wrapper_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 15 17:43:22 2022...
